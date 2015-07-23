@@ -39,6 +39,9 @@
         @media print {
           .noprint { display:none; }
         }
+        @media screen {
+          .noview { display:none; }
+        }
      </style>
      <link rel="icon" type="image/png" href="favicon.png" />
      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -55,9 +58,9 @@
         
             <h1 class="fn">
               <!-- I KNOW ALL THESE SPACES ARE SHITTY, I WAS TOO LAZY TO SPACE IT IN CSS! -->
-              Jason Mabry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Jason Mabry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <span class="noprint" id="smaller">
-<!--                <a class="top" href="https://github.com/jmabry111" target="_blank"><i class="fa fa-github-square"></i></a>&nbsp;-->
+                <a class="top" href="https://github.com/jmabry111" target="_blank"><i class="fa fa-github-square"></i></a>&nbsp;
                 <a class="top" href="https://www.linkedin.com/in/jmabry111" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp;
                 <a class="top" href="https://twitter.com/jemabry" target="_blank"><i class="fa fa-twitter-square"></i></a>
               </span>
@@ -76,7 +79,7 @@
                 
         <div id="objective">
             <p>
-            I am a dedicated IT professional with nearly a decade of experience in the field. I possess a passion for all things web related. I enjoy designing and developing user friendly web sites and applications. I also have extensive experience in server configuration, maintenance and backup, including Windows, Linux and OS X Server. I am a lifelong learner who enjoys a challenge and thrives on optimizing the experience for each end user.
+            I am a dedicated IT professional with nearly a decade of experience in the field. I possess a passion for all things web related. I enjoy designing and developing user friendly web sites and applications. I also have extensive experience in web server configuration and maintenance on multiple server operating systems. I am a lifelong learner who enjoys a challenge and thrives on optimizing the experience for each end user.
             </p>
         </div>
         
@@ -103,16 +106,11 @@
                 <td class="left">
                 <ul>
                   <li>Active Directory Administration</li>
-                  <ul class="nested">
-                    <li><em>Group Policy, File &amp; Print Services, RADIUS/LDAP, AVG</em></li>
-                  </ul>
                   <li>Google Apps Administration</li>
                   <li>Office 365 Administration</li>
                   <li>VMWare</li>
-                  <li>Meraki Networking and MDM</li>
-                  <li>Cisco Routing and Switching</li>
-                  <li>Mac OS X Server</li>
                   <li>Linux Server Administration</li>
+                  <li>Web server configuration and maintenance</li>
                 </ul>
               </td>
               <td>
@@ -130,7 +128,7 @@
                   <li>3D design and printing</li>
                   <li>Troubleshooting</li>
                   <li>Problem Solving</li>
-                  <li>Works well individually or with a team</li>
+                  <li>Works well individually or on a team</li>
                 </ul>
               </td>
             </tr>
@@ -142,20 +140,54 @@
             <dt>Experience</dt>
             <dd>
 			<h2>Freelance Work <span>Website Developer &mdash; 2010-present</span></h2>
-				<ul>
+      <!--Section to print-->
+				<ul class="noview">
 					<li><strong>Wordpress Samples:</strong></li>
 					<ul>
-						<li><a href="http://www.greenlivingresale.com" target="_blank">http://www.greenlivingresale.com</a></li>
-						<li><a href="http://www.martinsvillehugos.com" target="_blank">http://www.martinsvillehugos.com</a></li>
-						<li><a href="http://new.checkeredpig.com" target="_blank">http://new.checkeredpig.com</a></li>
-						<li><a href="http://www.njcaasoccer.com" target="_blank">http://www.njcaasoccer.com</a></li>
-						<li><a href="http://journey.mymabry.com" target="_blank">http://journey.mymabry.com</a></li>
+						<li>http://www.greenlivingresale.com</li>
+						<li>http://www.martinsvillehugos.com</li>
+						<li>http://new.checkeredpig.com</li>
+						<li>http://www.njcaasoccer.com</li>
+						<li>http://journey.mymabry.com</li>
 					</ul>
 					<li><strong>HTML/CSS Site Samples:</strong>
             <ul>
-						<li><a href="http://www.starfoodproducts.com" target="_blank">http://www.starfoodproducts.com</a></li>
-						<li><a href="http://team1262.net" target="_blank">http://team1262.net</a></li>
+						<li>http://www.starfoodproducts.com</li>
+						<li>http://team1262.net</li>
           </ul>
+            <li><strong>Web Application Sample:</strong></li>
+            <ul>
+              <li>http://mockapplication.pgsmst.com</li>
+              <ul>
+                <li>Sign in email: jason@mymabry.com</li>
+                <li>Sign in password: TestAdmin</li>
+              </ul>
+            </ul>
+				</ul>
+
+        <!--Section to view-->
+				<ul class="noprint">
+					<li><strong>Wordpress Samples:</strong></li>
+					<ul>
+						<li><a href="http://www.greenlivingresale.com" target="_blank">Green Living Resale</a></li>
+						<li><a href="http://www.martinsvillehugos.com" target="_blank">Hugos Restaurant</a></li>
+						<li><a href="http://new.checkeredpig.com" target="_blank">Checkered Pig Restaurants</a></li>
+						<li><a href="http://www.njcaasoccer.com" target="_blank">2016 NJCAA Soccer Tournament</a></li>
+						<li><a href="http://journey.mymabry.com" target="_blank">Journey Blog (personal)</a></li>
+					</ul>
+          <li><strong>HTML/CSS Site Samples:</strong></li>
+            <ul>
+						<li><a href="http://www.starfoodproducts.com" target="_blank">Star Food Products, Inc.</a></li>
+						<li><a href="http://team1262.net" target="_blank">Piedmont Governor's School Robotics Team</a></li>
+            </ul>
+            <li><strong>Web Application Sample:</strong></li>
+            <ul>
+              <li><a href="http://mockapplication.pgsmst.com" target="_blank">Piedmont Governor's School Application for Admission</a></li>
+              <ul>
+                <li>Sign in email: jason@mymabry.com</li>
+                <li>Sign in password: TestAdmin</li>
+              </ul>
+            </ul>
 				</ul>
             <h2>Piedmont Governor’s School <span>IT Specialist &mdash; 2012-present</span></h2>
                 <ul>
